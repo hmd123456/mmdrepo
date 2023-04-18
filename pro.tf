@@ -3,7 +3,7 @@ terraform {
     organization = "mmd-dev"
 
     workspaces {
-      name = "mmddevws"
+      name = "WS01"
     }
   }
 }
