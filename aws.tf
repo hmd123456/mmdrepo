@@ -1,7 +1,9 @@
-# The default provider configuration; resources that begin with `aws_` will use
-# it as the default, and it can be referenced as `aws`.
 provider "aws" {
-  region = "eu-west-2"
-  shared_credentials_files = ["C:/Users/mdeglurkar/AppData/Roaming/terraform.d/credentials.tfrc.json"]
-}
+  
+  region  = "eu-west-2"
+  access_key = "AKIA5BBQL4PJG5R5E67D"
+  secret_key = "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"
+  #access_key = var.AWS_ACCESS_KEY_ID
+  #secret_key = var.AWS_SECRET_ACCESS_KEY
 
+}
